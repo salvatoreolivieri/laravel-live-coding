@@ -1,0 +1,21 @@
+a {
+  text-decoration: none;
+  color: grey;
+}
+a.active, a:hover {
+  text-decoration: underline;
+  color: blue;
+}
+
+body {
+  background-color: lightgreen;
+}
+
+.card-container {
+  display: flex;
+  flex-direction: column;
+}
+
+img {
+  width: 200px;
+}
